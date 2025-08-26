@@ -21,7 +21,7 @@ This project allows you to run the Car Price Prediction application using Docker
 
 3. **Run the Application**
    - Locate the `docker-compose.yaml` file in the project folder.
-   - Right-click on it (or use terminal) and run:
+   - Right-click on it and click on compose up or  (or use terminal) and run:
      ```bash
      docker-compose up
      ```
@@ -32,7 +32,7 @@ This project allows you to run the Car Price Prediction application using Docker
 4. **Access the Application**
    - Open your web browser and go to:
      ```
-     http://localhost:8888
+     http://localhost:8050
      ```
    - The application should be live and ready to use.
 
@@ -40,5 +40,5 @@ This project allows you to run the Car Price Prediction application using Docker
 
 ## Notes
 
-- Make sure port `8888` is free on your machine.
+- Make sure port `8050` is free on your machine.
 - If you encounter any issues with Docker, try restarting Docker Desktop.
