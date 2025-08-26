@@ -22,7 +22,7 @@ fuel_car = pickle.load(open("Model/brand-fuel.model", 'rb'))
 brand_cat = list(label_car.classes_)
 
 fuel_cat = list(fuel_car.classes_)
-# df[['year','max_power','engine','brand','mileage','fuel']]
+# df[['year','max_power','brand','mileage','fuel']]
 
 
 num_cols = [ 'max_power', 'mileage']
@@ -44,7 +44,7 @@ app.layout = dbc.Container(
         dbc.Col(
             dbc.Card(
                 dbc.CardBody([
-                    html.H1("🚗 Awesome Car Price Prediction", className="text-center mb-4"),
+                    html.H1("🚗  Car Price Prediction", className="text-center mb-4"),
                     html.Hr(),
 
                     dbc.Row([
